@@ -308,7 +308,7 @@ def main(gx=10.0, gy=10.0, robot_type=RobotType.circle):
             plt.grid(True)
             plt.pause(0.0001)
             
-            plt.savefig("WA_move%03.f"%(i)+".jpg")
+           # plt.savefig("WA_move%03.f"%(i)+".jpg")
 
         # check reaching goal
         dist_to_goal = math.hypot(x[0] - goal[0], x[1] - goal[1])

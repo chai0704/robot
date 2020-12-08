@@ -1,12 +1,12 @@
 x-special/nautilus-clipboard
 copy
-file:///home/tiger/DWA_with_moving_object.py
+file:///home/chai0704/DWA_with_moving_object.py
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Sat Nov  7 17:01:57 2020
 
-@author: tiger
+@author: chai0704
 """
 
 import math

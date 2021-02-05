@@ -17,7 +17,10 @@ for i in range (21):
    print(path)
    df = pd.read_table('mergefile.txt', header=None, delim_whitespace=True)
    df.to_csv('mergefile.csv', index=False, header=False)
-
+   path= os.getcwd() # 現在のディレクトリ取得
+    print(path)
+   df = pd.read_table(r"0.1-cicle-frequency number-%02.f"%(i*300+60*(j+1))+".txt", 'r', header=None, delimiter=" ")
+   df.to_csv("%d-"%(i*300+60*(j+1))+".csv", index=False, header=False,  )
        
         
    # f = open(r"0.1-cicle-frequency number-%02.f"%(i*300+60*(j+1))+".txt", 'r')

@@ -1,5 +1,5 @@
 x-special/nautilus-clipboard
-copy
+
 file:///home/chai0704/DWA_with_moving_object.py
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
